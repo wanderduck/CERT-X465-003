@@ -1,0 +1,8 @@
+ 30-01-2026 23:18:25:846 [pid=535645 tid=535645] WARN   0:140 unable to load,  liburcu-bp.so.6 
+
+ 30-01-2026 23:18:25:847 [pid=535645 tid=535645] WARN   0:140 unable to load,  liburcu-bp.so.1 
+
+ 30-01-2026 23:18:26:340 [pid=535645 tid=535645] WARN   0:184 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 30-01-2026 23:18:26:340 [pid=535645 tid=535645] NOTICE  cufio-drv:1063 running in compatible mode
+ 30-01-2026 23:18:31:968 [pid=535645 tid=535645] ERROR  cufio-fs:79 mount option not found in mount table data device: /dev/nvme0n1p2
+ 30-01-2026 23:18:31:969 [pid=535645 tid=535645] NOTICE  cufio:289 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled

@@ -1,8 +1,10 @@
 # **University of Minnesota---<u>CERTX465-003</u>: <br>Data Interpretation and Application (Jan 2026)**
 
 ---
-
-
+## User Data
+- `data/`: directory containing datasets uses in notebooks
+- `src/`: directory containing user made `.py` files
+---
 ## Course Information
 In our data-filled world, it is important to be able to effectively interpret data and apply it to real-world problems. This six-week course will equip you with the skills to examine and understand data analyses and visualizations, and translate this into actionable insights that drive decision-making.<br><br>
 
@@ -92,3 +94,51 @@ Once you receive confirmation you have successfully met the learning objectives 
 Along with the course completion certificate, students will be awarded 3.0 Continuing Education Units (CEUs). Students will not receive University credit for completing the course as this is a non-credit course.
 
 ---
+## Assignment Submissions
+- Below are my submissions to each assignment
+
+### <u>Assignment 1 Submission</u>
+#### Assignment 01
+- Completed by: Logan R. Sloan<br><br>
+
+##### Assignment Details
+- Write a short essay that address the following questions:
+	- What problem or question are you trying to address?
+	- Why are you interested in addressing this?
+	- Why is this an important question or problem to address (in general)?
+	- Who might your audience(s) be for this investigation?
+	- How will the results of this investigation help your audience make decisions or draw conclusions?<br><br>
+
+##### Essay
+There is an online, data science and machine learning platform called Kaggle where organizations and users can submit different forms of competitions with datasets where users or teams of users compete to best solve whatever goal is set for the competition. For example, an introductory competition held previously was to build a model that can, based on the data given, best predict whether an individual will pay back or default on a home loan. Within this sphere I am most concerned with the *meta* of the competitions. That is, questions such as: 
+ 
+- What coding languages and code libraries are most often used?
+- What types of models and machine learning platforms are most regularly used to win competitions?
+- Are competition winners most often individuals or teams?
+- Are these winners professionals or amateurs in the fields of machine learning and data science?
+- What types of hardware are being used, and do winners most often use professional/corporate level hardware or is average enthusiast hardware enough?
+
+My interest in this topic stems chiefly from the concern that I want to know if an individual amateur such as myself with mid to lower high-end hardware has some chance at winning any of these competitions. Many of the competitions have cash prizes for the top performers/teams. Likewise, performing well in a competition can be a stepping stone into a career in related fields, as many companies not only sponsor competitions but keep an eye on top performers for potential talent. Lastly, one can learn a great deal from the experience of building, training, and implementing a machine learning model in these competitions without needing to think of interesting problems to solve and compiling a dataset (or datasets) themselves, which can often be a barrier to learning and skill growth. 
+
+Answering the questions above will give clearer context into how one ought to pursue competing in these competitions and, furthermore, whether, given one's unique circumstances and the resources available to them, whether attempting to compete in these competitions is worth their time and effort. Likewise, these questions could help inform competition organizers and the team at Kaggle on how to better structure and limit competitions depending on what categories of competitor they most want competing in particular competitions. Overall, this type of investigation can give insight into how the platform has evolved and changed over its approximately fifteen year existence.
+<br><br>
+<br><br>
+### <u>Assignment 2A Submission</u>
+#### Assignment 02A
+- Completed by: Logan R. Sloan<br><br>
+
+##### Assignment Details
+Identify at least one data source that can help answer the question you developed in Module 1. First, do some research on your own to try and find a data source(s). You might start with a simple Google search, you may ask someone who has knowledge in the area, or you might already know of some candidates. For example, if your question pertains to K-12 education in Minnesota, you might check out the Department of Education's data sources.
+
+After you have finished your search and identified good data source(s), please write a short essay that addresses to the following questions: 
+- Describe the data source(s) that you found.
+- How is the data relevant to your question?
+- Where does the data come from?
+- How reliable is the source? Are there any signs of bias?<br><br>
+
+##### Essay
+To address my questions from [Assignment 1](####assignment-01) I have found a primary dataset called “Meta Kaggle” ([here](https://www.kaggle.com/datasets/kaggle/meta-kaggle)) that also has an extension called “Meta Kaggle Code” ([here](https://www.kaggle.com/datasets/kaggle/meta-kaggle-code)). The primary dataset contains all the public data on Kaggle’s competitions, kernels and models used, organizations who posted competitions, data concerning the users and teams who competed, the datasets used for competitions, among other things. The “Meta Kaggle Code” dataset contains all the raw source code of Python and R coding language notebooks used to analyze datasets, make submissions to competitions, or where otherwise uploaded to Kaggle’s website. The data contained in these two datasets are directly the kind of data necessary to analyze the details of Kaggle competitions and those who win these competitions, which is ultimately what my questions from Assignment 1 are attempting to find out. This data was gathered and released by the team at Kaggle, so it can be assumed the data is reliable. Furthermore, there does not seem to be any bias in the data, though only a full scraping of the website, which would take a very long time, immense compute resources and is outside the scope of this project, could truly tell if any bias existed in the gathering of the data. However, since all of the data gathered is publicly available and can be checked against the dataset, it would seem that bias in the data is unlikely. 
+<br><br>
+<br><br>
+
+ 
